@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /*adding font*/
+}
+.Registration{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), black); /* linear gradient background colour is added*/
+}
+.login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url("img1.jpg"); /* background image */
+  }
+.regbox{   /* adding styles for form condents*/
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(250, 252, 250);
+    text-align: justify;
+    border-radius: 5%; 
+}
+.logbox /* Style for form condents */
+{
+    height: fit-content;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.5); /* black background with 50% opacity */
+    text-align: center;
+}
+.regbutton { /* Submit button*/
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+.reglink{ /*Link*/
+    color: rgb(0, 0, 0);
+}
+.logbutton /* Details for login button */
+{
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 173px;
+    background-color: black; 
+    color: white;
+    border-radius: 4px; /* form Box become rounded corners*/
+    font-weight: bold;
+}
+.logbutton:hover
+{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+.loglink/* Style for the links in the page*/
+{
+    color: white;
+}
